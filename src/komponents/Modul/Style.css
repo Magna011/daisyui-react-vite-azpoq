@@ -1,0 +1,12 @@
+.custom-label {
+  width: 350px;
+  background-color: gray;
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-label:focus {
+  background-color: darkgray;
+  outline: none; /* Menghapus garis bingkai saat difokuskan */
+}
