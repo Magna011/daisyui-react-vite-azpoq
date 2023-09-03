@@ -3,7 +3,7 @@ import Modul2 from "../../komponents/Modul/Modul2";
 import ProgressCardModul2 from "../../komponents/ProgressCard/ProgressCardModul2";
 import UlasanModul2 from "../../komponents/Ulasan/UlasanModul2";
 
-const HomePageModul1 = () => {
+const HomePageModul2 = () => {
   return (
     <div>
       <PelatihanModul2/>
@@ -29,4 +29,4 @@ const HomePageModul1 = () => {
   );
 };
 
-export default HomePageModul1;
+export default HomePageModul2;

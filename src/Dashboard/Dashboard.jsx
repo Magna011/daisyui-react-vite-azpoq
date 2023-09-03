@@ -3,6 +3,7 @@ import ModulDashboard from '../komponents/Modul/ModulDashboard';
 import ProgressCardDashboard from '../komponents/ProgressCard/ProgressCardDashboard';
 import Ulasan from '../komponents/Ulasan/Ulasan';
 import Pelatihan from '../komponents/HomePage/Pelatihan';
+import Nomer4 from '../komponents/Pelatihan Serupa/Pelatihanserupa';
 
 const Dashboard = () => {
   return (
@@ -26,6 +27,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <Nomer4/>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import ProgressCardSubModul5 from "../../komponents/ProgressCard/ProgressCardSub
 import SubModul5 from "../../komponents/SubModul/SubModul5";
 import UlasanSubmodul5 from "../../komponents/Ulasan/UlasanSubmodul5";
 
-const HomePagSubModul5 = () => {
+const HomePageSubModul5 = () => {
   return (
     <div>
       <PelatihanSubmodul5/>

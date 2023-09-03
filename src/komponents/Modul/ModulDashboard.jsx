@@ -1,6 +1,10 @@
 import './Style.css';
+import {useNavigate} from 'react-router-dom';
 
 const ModulDashboard = () => {
+
+  const navigate = useNavigate()
+
   return (
     <div>
       <table className="table border border-black border-t-2 w-[300px] h-[650px]">
@@ -24,69 +28,69 @@ const ModulDashboard = () => {
           <label
             className="block w-[300px] py-1 border border-black border-t-2 text-md font-bold custom-label"
           >
-            <a>Modul 1</a>
+            <a onClick={() => navigate('/homepagemodul1') }>Modul 1</a>
           </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md subcustom-label"
             >
-              <a>SubModul 1</a>
+              <a onClick={() => navigate('/homepagesubmodul1')}>SubModul 1</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md"
             >
-              <a>SubModul 2</a>
+              <a onClick={() => navigate('/homepagesubmodul2') }>SubModul 2</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md"
             >
-              <a>SubModul 3</a>
+              <a onClick={() => navigate('/homepagesubmodul3') }>SubModul 3</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md"
             >
-              <a>SubModul 4</a>
+              <a onClick={() => navigate('/homepagesubmodul4') }>SubModul 4</a>
             </label>
           </div>
 
           <label
             className="block w-[300px] border border-black border-t-2 bg-primary-content text-md font-bold custom-label"
           >
-            <a>Modul 2</a>
+            <a onClick={() => navigate('/homepagemodul2') }>Modul 2</a>
           </label>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md"
             >
-              <a>SubModul 1</a>
+              <a onClick={() => navigate('/homepagesubmodul5') }>SubModul 1</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md "
             >
-              <a>SubModul 2</a>
+              <a onClick={() => navigate('/homepagesubmodul6') }>SubModul 2</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md"
             >
-              <a>SubModul 3</a>
+              <a onClick={() => navigate('/homepagesubmodul7') }>SubModul 3</a>
             </label>
           </div>
           <div className="flex justify-center items-center py-2">
             <label
               className="block w-[280px] border border-black border-t-2 bg-primary-content text-md "
             >
-              <a>SubModul 4</a>
+              <a onClick={() => navigate('/homepagesubmodul8') }>SubModul 4</a>
             </label>
           </div>
 
